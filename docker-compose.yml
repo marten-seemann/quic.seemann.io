@@ -3,6 +3,7 @@ services:
   endpoint:
     build: .
     ports:
+    - "443:6121"
     - "443:6121/udp"
     volumes:
     - /var/www/seemann.io:/var/www

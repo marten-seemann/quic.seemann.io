@@ -5,6 +5,7 @@ RUN go get github.com/lucas-clemente/quic-go/... && \
   git checkout interop
 
 EXPOSE 6121/udp
+EXPOSE 6121
 VOLUME /var/www
 
 COPY run.sh .
