@@ -1,0 +1,6 @@
+version: '2'
+services:
+  endpoint:
+    build: .
+    ports:
+    - "443:6121/udp"
