@@ -13,4 +13,4 @@ RUN chmod +x run.sh
 COPY privkey.pem $GOPATH/src/github.com/lucas-clemente/quic-go/internal/testdata/priv.key
 COPY fullchain.pem $GOPATH/src/github.com/lucas-clemente/quic-go/internal/testdata/cert.pem
 
-ENTRYPOINT [ "sh", "-c", "./run.sh" ]
+ENTRYPOINT ./run.sh

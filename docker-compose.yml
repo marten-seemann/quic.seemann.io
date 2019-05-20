@@ -6,3 +6,5 @@ services:
     - "443:6121/udp"
     volumes:
     - /var/www/seemann.io:/var/www
+    environment:
+    - DEBUG=$DEBUG"
